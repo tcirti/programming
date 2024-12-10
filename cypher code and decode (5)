@@ -1,0 +1,17 @@
+word = input("what statement would you like to encyrpt? ")
+new_word = ""
+for letter in word:
+    ascii = ord(letter)
+    nascii = ascii + 5
+    nletter = chr(nascii)
+    new_word += nletter
+print(new_word)
+
+word = input("what statement would you like to decyrpt? ")
+new_word = ""
+for letter in word:
+    ascii = ord(letter)
+    nascii = ascii - 5
+    nletter = chr(nascii)
+    new_word += nletter
+print(new_word)
