@@ -1,0 +1,5 @@
+nums1 = [14,19,21,5,7,10]
+y = 0
+for x in nums1:
+    y += 1
+    print("number",y,"=",x)
